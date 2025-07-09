@@ -1,0 +1,29 @@
+# Dependencias
+/node_modules
+
+# Archivos de logs
+npm-debug.log*
+*.log
+
+# Cachés de desarrollo
+.parcel-cache/
+.eslintcache
+.prettiercache
+.turbo/
+.next/ # Si usas Next.js (aunque esto es Node.js puro, es un ejemplo común)
+.nuxt/ # Si usas Nuxt.js
+dist/ # Archivos de salida de compilación
+build/ # Archivos de salida de compilación
+
+# Archivos de entornos
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Otros archivos comunes ignorados
+.DS_Store # macOS
+Thumbs.db # Windows
+*.code-workspace # VS Code
+.vscode/ # Configuración de VS Code (a veces se quiere compartir, pero a menudo no)
